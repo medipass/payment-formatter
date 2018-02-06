@@ -14,8 +14,8 @@ $ npm install payment-formatter
 import paymentFormatter from 'payment-formatter';
 
 paymentFormatter({
-	selector: 'input#card-number',
-	type: 'cardNumber'
+  selector: 'input#card-number',
+  type: 'cardNumber'
 });
 ```
 
@@ -23,16 +23,16 @@ or with pure HTML (useful for payment fields within an iframe):
 
 ```html
 <html>
-	<body>
-		<input id="card-number" auto-complete="cc-number" pattern="[0-9]*" placeholder="Card number" type="text">
-		<script src="https://unpkg.com/payment-formatter@1.0.0/umd/index.js" />
-		<script>
-			paymentFormatter({
-				selector: 'input#card-number',
-				type: 'cardNumber'
-			})
-		</script>
-	</body>
+  <body>
+    <input id="card-number" auto-complete="cc-number" pattern="[0-9]*" placeholder="Card number" type="text">
+    <script src="https://unpkg.com/payment-formatter@1.0.0/umd/index.js" />
+    <script>
+    paymentFormatter({
+      selector: 'input#card-number',
+      type: 'cardNumber'
+    })
+    </script>
+  </body>
 </html>
 ```
 
