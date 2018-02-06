@@ -1,0 +1,28 @@
+{
+	"name": "payment-formatter",
+	"version": "0.0.0",
+	"description": "A flexible, lightweight library to format payment card numbers",
+	"license": "MIT",
+	"repository": "medipass/payment-formatter",
+	"author": {
+		"name": "jxom",
+		"email": "jakemoxey@gmail.com",
+		"url": "jxom.io"
+	},
+	"scripts": {
+		"test": "xo"
+	},
+	"files": [
+		"index.js"
+	],
+	"keywords": [
+		""
+	],
+	"dependencies": {},
+	"devDependencies": {
+		"xo": "0.18.2"
+	},
+	"xo": {
+		"space": true
+	}
+}
