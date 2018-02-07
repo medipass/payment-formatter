@@ -1,0 +1,23 @@
+<html>
+  <body>
+    <input id="card-number" auto-complete="cc-number" pattern="[0-9]*" placeholder="Card number" type="text">
+    <input id="card-expiry" auto-complete="cc-expiry" pattern="[0-9]*" placeholder="Card expiry" type="text">
+    <input id="card-cvc" auto-complete="cc-cvc" pattern="[0-9]*" placeholder="Card cvc" type="text">
+    <script src="../umd/index.js"></script>
+    <script>
+      paymentFormatter({
+        inputType: 'cardNumber',
+        selector: 'input#card-number'
+      })
+      paymentFormatter({
+        inputType: 'expiry',
+        selector: 'input#card-expiry'
+      })
+      paymentFormatter({
+        cardType: 'mastercard',
+        inputType: 'cvc',
+        selector: 'input#card-cvc'
+      })
+    </script>
+  </body>
+</html>
