@@ -14,19 +14,9 @@
     "develop": "rollup -c -w",
     "test": "xo"
   },
-  "files": [
-    "umd/"
-  ],
+  "files": ["umd/"],
   "main": "umd/index.js",
-  "keywords": [
-    "payment",
-    "formatter",
-    "credit",
-    "debit",
-    "card",
-    "cvc",
-    "expiry"
-  ],
+  "keywords": ["payment", "formatter", "credit", "debit", "card", "cvc", "expiry"],
   "dependencies": {},
   "devDependencies": {
     "babel-core": "6.26.0",
@@ -37,8 +27,6 @@
   },
   "xo": {
     "space": true,
-    "envs": [
-      "browser"
-    ]
+    "envs": ["browser"]
   }
 }
