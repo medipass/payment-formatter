@@ -14,19 +14,33 @@
     "develop": "rollup -c -w",
     "test": "xo"
   },
-  "files": ["umd/"],
+  "files": [
+    "umd/"
+  ],
   "main": "umd/index.js",
-  "keywords": ["payment", "formatter", "credit", "debit", "card", "cvc", "expiry"],
+  "keywords": [
+    "payment",
+    "formatter",
+    "credit",
+    "debit",
+    "card",
+    "cvc",
+    "expiry"
+  ],
   "dependencies": {},
   "devDependencies": {
     "babel-core": "6.26.0",
     "babel-preset-env": "1.6.1",
     "rollup": "0.55.3",
     "rollup-plugin-babel": "3.0.3",
+    "rollup-plugin-uglify": "^3.0.0",
+    "uglify-es": "^3.3.9",
     "xo": "0.18.2"
   },
   "xo": {
     "space": true,
-    "envs": ["browser"]
+    "envs": [
+      "browser"
+    ]
   }
 }
