@@ -78,4 +78,4 @@ CSS selector of the targeted input field.
 
 ## License
 
-MIT © [jxom](http://jxom.io)
+MIT © [Medipass Solutions](https://medipass.com.au/)
