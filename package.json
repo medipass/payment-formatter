@@ -1,42 +1,44 @@
 {
-	"name": "payment-formatter",
-	"version": "0.0.1",
-	"description": "A flexible, lightweight library to format payment card numbers",
-	"license": "MIT",
-	"repository": "medipass/payment-formatter",
-	"author": {
-		"name": "jxom",
-		"email": "jakemoxey@gmail.com",
-		"url": "jxom.io"
-	},
-	"scripts": {
+  "name": "payment-formatter",
+  "version": "1.0.0",
+  "description": "A flexible, lightweight library to format payment card numbers",
+  "license": "MIT",
+  "repository": "medipass/payment-formatter",
+  "author": {
+    "name": "jxom",
+    "email": "jakemoxey@gmail.com",
+    "url": "jxom.io"
+  },
+  "scripts": {
     "build": "rollup -c",
     "develop": "rollup -c -w",
     "test": "xo"
-	},
-	"files": [
-		"umd/"
-	],
-	"main": "umd/index.js",
-	"keywords": [
-		"payment",
-		"formatter",
-		"credit",
-		"debit",
-		"card",
-		"cvc",
-		"expiry"
-	],
-	"dependencies": {},
-	"devDependencies": {
-		"babel-core": "6.26.0",
-		"babel-preset-env": "1.6.1",
-		"rollup": "0.55.3",
-		"rollup-plugin-babel": "3.0.3",
-		"xo": "0.18.2"
-	},
-	"xo": {
+  },
+  "files": [
+    "umd/"
+  ],
+  "main": "umd/index.js",
+  "keywords": [
+    "payment",
+    "formatter",
+    "credit",
+    "debit",
+    "card",
+    "cvc",
+    "expiry"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "babel-core": "6.26.0",
+    "babel-preset-env": "1.6.1",
+    "rollup": "0.55.3",
+    "rollup-plugin-babel": "3.0.3",
+    "xo": "0.18.2"
+  },
+  "xo": {
     "space": true,
-    "envs": ["browser"]
-	}
+    "envs": [
+      "browser"
+    ]
+  }
 }
