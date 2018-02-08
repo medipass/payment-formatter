@@ -36,7 +36,7 @@ or with pure HTML (useful for payment fields within an iframe):
     <input id="card-number" auto-complete="cc-number" pattern="[0-9]*" placeholder="Card number" type="text">
     <input id="card-expiry" auto-complete="cc-expiry" pattern="[0-9]*" placeholder="Card expiry" type="text">
     <input id="card-cvc" auto-complete="cc-cvc" pattern="[0-9]*" placeholder="Card cvc" type="text">
-    <script src="https://unpkg.com/payment-formatter@1.0.0/umd/index.js" />
+    <script src="https://unpkg.com/payment-formatter@latest/umd/index.js" />
     <script>
       paymentFormatter({
         inputType: 'cardNumber',
