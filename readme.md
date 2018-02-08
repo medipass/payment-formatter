@@ -1,6 +1,6 @@
 # payment-formatter
 
-> A flexible, lightweight library to format payment card numbers
+> A flexible, lightweight (1.5kB), non-dependant library to format payment card input fields. 
 
 ## Install
 
