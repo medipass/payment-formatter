@@ -63,7 +63,7 @@ or with pure HTML (useful for payment fields within an iframe):
 
 #### cardType
 
-Type: `string` (optional)<br>
+Type: `string` (required for `inputType = 'cvc'`)<br>
 Type of card. E.g.: `mastercard`, `amex`, `visa`
 
 #### inputType
