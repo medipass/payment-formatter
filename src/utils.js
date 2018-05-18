@@ -94,7 +94,7 @@ export const CARD_TYPES = [
     cvcLength: DEFAULT_CVC_LENGTH
   }
 ];
-export const EXPIRY_FORMAT = /(^(0|1)$|^(0[1-9]|10|11|12)$|^((0[1-9]|10|11|12)(1|2))$|^((0[1-9]|10|11|12)(1|2)[0-9])$)/;
+export const EXPIRY_FORMAT = /(^(0|1)$|^(0[1-9]|10|11|12)$|^((0[1-9]|10|11|12)[0-9])$|^((0[1-9]|10|11|12)[0-9][0-9])$)/;
 export const INPUT_TYPE_CARD_NUMBER = 'cardNumber';
 export const INPUT_TYPE_CVC = 'cvc';
 export const INPUT_TYPE_EXPIRY = 'expiry';
