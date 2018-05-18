@@ -1,6 +1,6 @@
 # payment-formatter
 
-> A flexible, lightweight library to format payment card numbers
+> A flexible, lightweight (1.5kB), non-dependant library to format payment card input fields. 
 
 ## Install
 
@@ -36,7 +36,7 @@ or with pure HTML (useful for payment fields within an iframe):
     <input id="card-number" auto-complete="cc-number" pattern="[0-9]*" placeholder="Card number" type="text">
     <input id="card-expiry" auto-complete="cc-expiry" pattern="[0-9]*" placeholder="Card expiry" type="text">
     <input id="card-cvc" auto-complete="cc-cvc" pattern="[0-9]*" placeholder="Card cvc" type="text">
-    <script src="https://unpkg.com/payment-formatter@1.0.0/umd/index.js" />
+    <script src="https://unpkg.com/payment-formatter@latest/umd/index.js"></script>
     <script>
       paymentFormatter({
         inputType: 'cardNumber',
@@ -63,7 +63,7 @@ or with pure HTML (useful for payment fields within an iframe):
 
 #### cardType
 
-Type: `string` (optional)<br>
+Type: `string` (required for `inputType = 'cvc'`)<br>
 Type of card. E.g.: `mastercard`, `amex`, `visa`
 
 #### inputType
