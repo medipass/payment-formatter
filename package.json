@@ -1,6 +1,6 @@
 {
   "name": "payment-formatter",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A flexible, lightweight library to format payment card numbers",
   "license": "MIT",
   "repository": "medipass/payment-formatter",
